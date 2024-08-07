@@ -1,8 +1,8 @@
 Create Ubuntu instance
 
-Install java 8
+Install java 17
 ----------------
-sudo apt-get install openjdk-8-jdk -y
+sudo apt-get install openjdk-17-jdk -y
 
 Install Maven 3.3.9
 ---------------------
@@ -67,10 +67,10 @@ https://digitalavenue.dev/Install-SonarQube-On-Ubuntu-Debian/
 
 
   cd /opt
-  sudo curl -O https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-8.3.0.34182.zip
+  sudo curl -O https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.9.6.92038.zip
   sudo apt-get install unzip
-  sudo unzip sonarqube-8.3.0.34182.zip -d /opt/
-  sudo mv /opt/sonarqube-8.3.0.34182/ /opt/sonarqube
+  sudo unzip sonarqube-9.9.6.92038.zip -d /opt/
+  sudo mv /opt/sonarqube-9.9.6.92038/ /opt/sonarqube
   cd /opt/sonarqube/
   sudo groupadd sonar
   sudo useradd -c "SonarQube - User" -d /opt/sonarqube/ -g sonar sonar
